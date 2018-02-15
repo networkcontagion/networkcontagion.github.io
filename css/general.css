@@ -1133,9 +1133,16 @@ color: #ECEBEB;
 	transition: none !important;
 }
 
+
 /* Media Queries */
 /* Media queries!
 -------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 767px) {
+    .intro-info {
+        display:none !important;
+    }
+}
 
 /* 960 Screens */
 @media only screen and (min-width: 960px) and (max-width: 1250px) {
@@ -1170,6 +1177,10 @@ color: #ECEBEB;
 			background-size: cover;
 			text-align: center;
 			background-color: #34495e;*/
+		}
+
+		.intro-info {
+			display: true;
 		}
 
 		.news-par, .address-par, .news-par-archive, .ref-par, .subsubtitle { /* AA */
